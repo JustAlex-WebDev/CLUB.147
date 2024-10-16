@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CLUB.147/static/css/main.130292e4.css",
+    "main.js": "/CLUB.147/static/js/main.97adaf52.js",
+    "index.html": "/CLUB.147/index.html",
+    "main.130292e4.css.map": "/CLUB.147/static/css/main.130292e4.css.map",
+    "main.97adaf52.js.map": "/CLUB.147/static/js/main.97adaf52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.130292e4.css",
+    "static/js/main.97adaf52.js"
+  ]
+}
