@@ -1,0 +1,87 @@
+/* Import Tailwind's base styles, component styles, and utility styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gelasio", serif;
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+/* Set full height for the HTML element */
+html {
+  height: -webkit-fill-available;
+}
+
+/* Body styling */
+body {
+  overflow: hidden;
+  background-color: #202020;
+  color: white;
+}
+
+/* Font styles */
+.font-rubik {
+  font-family: "Rubik Mono One", monospace;
+}
+
+/* Custom Box Shadow */
+.custom-box-shadow {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.7s ease-in-out;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+/* Custom cursor dot styles */
+.cursor-dot {
+  width: 15px;
+  height: 15px;
+  display: none;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+/* Highlighted / On Selection Styles */
+::-moz-selection {
+  background: white;
+  color: #202020;
+}
+
+::-webkit-selection {
+  background: white;
+  color: #202020;
+}
+
+::selection {
+  background: white;
+  color: #202020;
+}
